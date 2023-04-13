@@ -1,0 +1,12 @@
+core_cm3.h:1586:22:NVIC_SetPriority	16	static
+core_cm3.h:1694:26:SysTick_Config	16	static
+sample.h:28:12:sample	4	static
+main.c:32:13:intToString	32	static
+main.c:85:6:SysTick_Handler	4	static
+main.c:89:17:getTicks	4	static
+main.c:96:13:init_ssp	40	static
+main.c:137:13:init_i2c	16	static
+main.c:157:13:init_adc	16	static
+main.c:188:5:testing	32	static
+main.c:270:5:main	16	static
+main.c:330:6:check_failed	16	static
