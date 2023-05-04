@@ -29,7 +29,7 @@ all: oled_periph.axf
 oled_periph.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\student\Downloads\eaBFOIGWAQOEFGQAPIFIOPAUUG\Lib_CMSISv1p30_LPC17xx\Debug" -L"C:\Users\student\Downloads\eaBFOIGWAQOEFGQAPIFIOPAUUG\Lib_EaBaseBoard\Debug" -L"C:\Users\student\Downloads\eaBFOIGWAQOEFGQAPIFIOPAUUG\Lib_MCU\Debug" -Xlinker --gc-sections -Xlinker -Map=oled_periph.map -mcpu=cortex-m3 -mthumb -T "rdb1768cmsis_uart_Debug.ld" -o "oled_periph.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\student\Wbudy\C03_AirConditioner\Lib_CMSISv1p30_LPC17xx\Debug" -L"C:\Users\student\Wbudy\C03_AirConditioner\Lib_EaBaseBoard\Debug" -L"C:\Users\student\Wbudy\C03_AirConditioner\Lib_MCU\Debug" -Xlinker --gc-sections -Xlinker -Map=oled_periph.map -mcpu=cortex-m3 -mthumb -T "rdb1768cmsis_uart_Debug.ld" -o "oled_periph.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

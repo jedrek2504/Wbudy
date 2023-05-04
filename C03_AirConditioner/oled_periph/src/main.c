@@ -119,6 +119,18 @@ static void init_adc(void)
 
 }
 
+void PWM_Init(){
+	LPC_SC->PCONP |= (1<<6);
+	LPC_PWM1->PR = 0x18;
+	LPC_PWM1->MR0 = 0x3e8;
+	LPC_PWM1->MR1 = 0x0;
+	LPC_PINCON->PINSEL4 |= (1<<0);
+	LPC_PWM1->PCR |= (1<<9);
+	LPC_PWM1->TCR = 0x9;
+	LPC_PWM1->PC = 0x1;
+	LPC_PWM1->LER = 0x3;
+}
+
 int main (void)
 {
 
@@ -137,7 +149,7 @@ int main (void)
     acc_init();
 
     temp_init (&getTicks);
-
+    PWM_Init();
 
 	if (SysTick_Config(SystemCoreClock / 1000)) {
 		    while (1);  // Capture error
@@ -154,6 +166,7 @@ int main (void)
     oled_clearScreen(OLED_COLOR_WHITE);
 
     oled_putString(1,1,  (uint8_t*)"Temp : ", OLED_COLOR_BLACK, OLED_COLOR_WHITE);
+
 
 
     while(1) {
@@ -182,11 +195,22 @@ int main (void)
         uint16_t ledOn = 0;
         uint16_t ledOff = 0;
 
-          if (t >= 260)
-              rgb_setLeds(0x06);
+          if (t >= 280)
+          {
+        	  rgb_setLeds(0x06);
+        	  LPC_PWM1->MR1 = 750;
+        	  LPC_PWM1->LER = 0x2;
+          }
 
-          if(t<260)
-        	  rgb_setLeds(0x04);
+
+
+          if(t<280)
+          {
+        	   rgb_setLeds(0x04);
+        	   LPC_PWM1->MR1 = 300;
+        	   LPC_PWM1->LER = 0x2;
+          }
+
 
 
         /* delay */
