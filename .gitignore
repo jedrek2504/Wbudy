@@ -53,4 +53,5 @@ dkms.conf
 
 # MCUEXPRESSO
 .metadata
- C03_AirConditioner/.metadata
+C03_AirConditioner/.metadata
+Debug
