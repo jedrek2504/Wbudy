@@ -165,3 +165,647 @@ Caused by: org.eclipse.equinox.p2.core.ProvisionException: Error while reading f
 	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
 	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
 	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:04.386
+!MESSAGE Indexed 'oled_periph' (2 sources, 15 headers) in 0,563 sec: 1 610 declarations; 1 136 references; 3 unresolved inclusions; 17 syntax errors; 916 unresolved names (25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:04.591
+!MESSAGE Indexed 'bnc_oled' (2 sources, 11 headers) in 0,195 sec: 1 531 declarations; 1 157 references; 3 unresolved inclusions; 17 syntax errors; 903 unresolved names (25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:04.883
+!MESSAGE Indexed 'spi_flash' (2 sources, 10 headers) in 0,283 sec: 1 541 declarations; 1 237 references; 3 unresolved inclusions; 17 syntax errors; 903 unresolved names (25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:06.308
+!MESSAGE Indexed 'speaker_wav' (3 sources, 26 headers) in 0,375 sec: 1 590 declarations; 2 460 references; 0 unresolved inclusions; 18 syntax errors; 242 unresolved names (5,6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:06.651
+!MESSAGE Indexed 'disp7seg_rotary' (2 sources, 17 headers) in 0,118 sec: 1 391 declarations; 2 345 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:06.957
+!MESSAGE Indexed 'rgb_joystick' (2 sources, 17 headers) in 0,141 sec: 1 426 declarations; 2 338 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:07.350
+!MESSAGE Indexed 'Lib_EaBaseBoard' (13 sources, 28 headers) in 0,366 sec: 2 506 declarations; 5 109 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:07.516
+!MESSAGE Indexed 'xbee_oled' (2 sources, 18 headers) in 0,163 sec: 1 742 declarations; 2 659 references; 0 unresolved inclusions; 0 syntax errors; 1 unresolved names (0,023%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:07.753
+!MESSAGE Indexed 'i2c_eeprom' (2 sources, 35 headers) in 0,232 sec: 2 143 declarations; 3 427 references; 0 unresolved inclusions; 1 syntax errors; 1 unresolved names (0,018%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:07.913
+!MESSAGE Indexed 'Lib_FatFs_SD' (2 sources, 16 headers) in 0,156 sec: 1 824 declarations; 5 443 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:08.012
+!MESSAGE Indexed 'speaker_tone' (2 sources, 15 headers) in 0,094 sec: 1 432 declarations; 2 353 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:08.100
+!MESSAGE Indexed 'demo' (2 sources, 25 headers) in 0,086 sec: 1 799 declarations; 2 826 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:08.165
+!MESSAGE Indexed 'leds_joystick' (2 sources, 17 headers) in 0,062 sec: 1 411 declarations; 2 306 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:08.365
+!MESSAGE Indexed 'mmc_fat' (2 sources, 50 headers) in 0,198 sec: 2 920 declarations; 4 400 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:08.426
+!MESSAGE Indexed 'Lib_CMSISv1p30_LPC17xx' (2 sources, 7 headers) in 0,055 sec: 1 198 declarations; 2 084 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:08.504
+!MESSAGE Indexed 'uart2' (2 sources, 18 headers) in 0,075 sec: 1 724 declarations; 2 620 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:08.658
+!MESSAGE Indexed 'usbhostlite' (6 sources, 47 headers) in 0,151 sec: 2 714 declarations; 6 203 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:08.842
+!MESSAGE Indexed 'easyweb' (5 sources, 57 headers) in 0,182 sec: 3 397 declarations; 6 337 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:09.200
+!MESSAGE Indexed 'Lib_MCU' (24 sources, 32 headers) in 0,33 sec: 4 077 declarations; 19 992 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-04 12:45:09.336
+!MESSAGE Indexed 'usbmem' (8 sources, 23 headers) in 0,131 sec: 1 698 declarations; 4 521 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-05-04 12:45:32.029
+!MESSAGE Connection to https://mcuxpresso.nxp.com/eclipse/sdk/2.2.8/p2.index failed on Connect to mcuxpresso.nxp.com:443 [mcuxpresso.nxp.com/104.64.112.64] failed: Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to mcuxpresso.nxp.com:443 [mcuxpresso.nxp.com/104.64.112.64] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+
+!ENTRY com.crt.log 1 0 2023-05-04 12:46:08.932
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 12:46:09.437
+!MESSAGE RedlinkServer telnet session connected on port 3025->1205 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 12:46:17.367
+!MESSAGE Telnet session connected on port 3330->1209 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 2 0 2023-05-04 12:46:18.222
+!MESSAGE Unknown SWO data source. Fallback to HID.
+
+!ENTRY com.crt.log 1 0 2023-05-04 12:46:18.477
+!MESSAGE Generic cortexM4 ROM base address will be used: e00ff000
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-05-04 13:17:50.440
+!MESSAGE There is already a running debug session for the launch configuration 'oled_periph LinkServer Debug'.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-04 13:17:56.804
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@75236337): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2023-05-04 13:17:56.804
+!MESSAGE Invalid context type.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:18:09.389
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:18:09.897
+!MESSAGE RedlinkServer telnet session connected on port 3025->27482 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 -1 2023-05-04 13:18:13.231
+!MESSAGE Unable to open probe index 1.
+Error: Probe not open
+
+
+!STACK 0
+java.lang.Exception: Unable to open probe index 1.
+Error: Probe not open
+
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.openByIndex(RedlinkServerClient.java:740)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:205)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 4 2023-05-04 13:18:13.235
+!MESSAGE Unable to open probe index 1.
+Error: Probe not open
+
+
+!STACK 0
+java.lang.Exception: Unable to open probe index 1.
+Error: Probe not open
+
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.openByIndex(RedlinkServerClient.java:740)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:205)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE Error: Probe not open
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.openByIndex(RedlinkServerClient.java:740)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:205)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:110)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:13.235
+!MESSAGE 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 13:18:26.834
+!MESSAGE Telnet session connected on port 3330->27490 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-05-04 13:18:28.286
+!MESSAGE Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=27487 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2023-05-04 13:18:28.308
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=27487 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=27487 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:242)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:106)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:94)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerGdbLaunchDelegate.launch(LinkServerGdbLaunchDelegate.java:148)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:807)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:718)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 0 2023-05-04 13:18:28.309
+!MESSAGE Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=27487 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:18:28.404
+!MESSAGE Stream is null in null
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:28.577
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:28.577
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:28.577
+!MESSAGE Could not connect to core.
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:28.577
+!MESSAGE 31: No connection to chip's debug port
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:18:28.577
+!MESSAGE Debugging context: oled_periph LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-04 13:18:31.813
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@2f649bd6): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2023-05-04 13:18:31.813
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:19:32.944
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:19:33.463
+!MESSAGE RedlinkServer telnet session connected on port 3025->27502 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 -1 2023-05-04 13:19:36.736
+!MESSAGE Unable to open probe index 1.
+Error: Probe not open
+
+
+!STACK 0
+java.lang.Exception: Unable to open probe index 1.
+Error: Probe not open
+
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.openByIndex(RedlinkServerClient.java:740)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:205)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 4 2023-05-04 13:19:36.740
+!MESSAGE Unable to open probe index 1.
+Error: Probe not open
+
+
+!STACK 0
+java.lang.Exception: Unable to open probe index 1.
+Error: Probe not open
+
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.openByIndex(RedlinkServerClient.java:740)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:205)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE Error: Probe not open
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.openByIndex(RedlinkServerClient.java:740)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:205)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:110)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:19:36.740
+!MESSAGE 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 13:20:08.647
+!MESSAGE Telnet session connected on port 3330->27509 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-05-04 13:20:10.108
+!MESSAGE Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=27506 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:20:10.124
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2023-05-04 13:20:10.131
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=27506 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=27506 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:242)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:106)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:94)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerGdbLaunchDelegate.launch(LinkServerGdbLaunchDelegate.java:148)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:807)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:718)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 0 2023-05-04 13:20:10.131
+!MESSAGE Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=27506 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:20:10.219
+!MESSAGE Stream is null in null
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:20:10.437
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:20:10.437
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:20:10.437
+!MESSAGE Could not connect to core.
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:20:10.437
+!MESSAGE 31: No connection to chip's debug port
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:20:10.437
+!MESSAGE Debugging context: oled_periph LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-04 13:20:13.217
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@6b472d66): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2023-05-04 13:20:13.217
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:20:47.591
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:20:48.107
+!MESSAGE RedlinkServer telnet session connected on port 3025->10672 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 13:20:52.422
+!MESSAGE Telnet session connected on port 3330->10676 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 2 0 2023-05-04 13:20:54.657
+!MESSAGE Unknown SWO data source. Fallback to HID.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:20:54.847
+!MESSAGE Generic cortexM4 ROM base address will be used: e00ff000
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:22:12.130
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:22:12.646
+!MESSAGE RedlinkServer telnet session connected on port 3025->10687 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 13:22:16.991
+!MESSAGE Telnet session connected on port 3330->10694 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 2 0 2023-05-04 13:22:19.124
+!MESSAGE Unknown SWO data source. Fallback to HID.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:22:19.315
+!MESSAGE Generic cortexM4 ROM base address will be used: e00ff000
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:22:53.822
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:22:54.327
+!MESSAGE RedlinkServer telnet session connected on port 3025->10697 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 -1 2023-05-04 13:22:57.579
+!MESSAGE Unable to open probe index 1.
+Error: Probe not open
+
+
+!STACK 0
+java.lang.Exception: Unable to open probe index 1.
+Error: Probe not open
+
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.openByIndex(RedlinkServerClient.java:740)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:205)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 4 2023-05-04 13:22:57.581
+!MESSAGE Unable to open probe index 1.
+Error: Probe not open
+
+
+!STACK 0
+java.lang.Exception: Unable to open probe index 1.
+Error: Probe not open
+
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.openByIndex(RedlinkServerClient.java:740)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:205)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE Error: Probe not open
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:214)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.openByIndex(RedlinkServerClient.java:740)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.ideConnect(AbstractJtagDiscovery.java:205)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.connect(AbstractJtagDiscovery.java:187)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.jtag.AbstractJtagDiscovery.discover(AbstractJtagDiscovery.java:146)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.jtagDiscovery(TargetDiscovery.java:444)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:247)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.init(LaunchScriptUtils.java:487)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:155)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LaunchScriptUtils.<init>(LaunchScriptUtils.java:142)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:138)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at com.nxp.mcuxpresso.core.debug.support.linkserver.override.LSFinalLaunchSequence$TargetDiscoveryJob.run(LSFinalLaunchSequence.java:110)
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:22:57.581
+!MESSAGE 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 13:23:00.057
+!MESSAGE Telnet session connected on port 3330->10704 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 0 2023-05-04 13:23:01.511
+!MESSAGE Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=10701 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2023-05-04 13:23:01.532
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=10701 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=10701 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:242)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:106)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:94)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerGdbLaunchDelegate.launch(LinkServerGdbLaunchDelegate.java:148)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:807)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:718)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 0 2023-05-04 13:23:01.532
+!MESSAGE Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm_redlink -msg-port=10701 -g -mi -2 -pLPC1769 -vendor=NXP   --reset=VECTRESET -ProbeHandle=1 -CoreIndex=0 --flash-hashing --flash-driver LPC175x_6x_512.cfx --telnet 3330
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Success.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:23:01.617
+!MESSAGE Stream is null in null
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:23:01.828
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:23:01.828
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:23:01.828
+!MESSAGE Could not connect to core.
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:23:01.828
+!MESSAGE 31: No connection to chip's debug port
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:23:01.828
+!MESSAGE Debugging context: oled_periph LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-04 13:23:03.226
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@5e0e86f): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2023-05-04 13:23:03.226
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:23:15.376
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:23:15.886
+!MESSAGE RedlinkServer telnet session connected on port 3025->10707 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 13:23:20.135
+!MESSAGE Telnet session connected on port 3330->10711 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 2 0 2023-05-04 13:23:20.894
+!MESSAGE Unknown SWO data source. Fallback to HID.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:23:21.117
+!MESSAGE Generic cortexM4 ROM base address will be used: e00ff000
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-05-04 13:25:17.180
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@2c378437): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2023-05-04 13:25:17.180
+!MESSAGE Invalid context type.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:25:32.599
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:25:33.107
+!MESSAGE RedlinkServer telnet session connected on port 3025->10725 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 13:25:37.522
+!MESSAGE Telnet session connected on port 3330->10732 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 2 0 2023-05-04 13:25:38.259
+!MESSAGE Unknown SWO data source. Fallback to HID.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:25:38.468
+!MESSAGE Generic cortexM4 ROM base address will be used: e00ff000
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:31:52.945
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:31:53.456
+!MESSAGE RedlinkServer telnet session connected on port 3025->1037 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:31:53.458
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:31:59.893
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:32:00.410
+!MESSAGE RedlinkServer telnet session connected on port 3025->1038 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 13:32:04.739
+!MESSAGE Telnet session connected on port 3330->1042 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 2 0 2023-05-04 13:32:06.878
+!MESSAGE Unknown SWO data source. Fallback to HID.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:32:07.134
+!MESSAGE Generic cortexM4 ROM base address will be used: e00ff000
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:51:23.324
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:51:23.832
+!MESSAGE RedlinkServer telnet session connected on port 3025->1174 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 13:51:23.835
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:51:32.775
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 13:51:33.290
+!MESSAGE RedlinkServer telnet session connected on port 3025->1175 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 13:51:37.662
+!MESSAGE Telnet session connected on port 3330->1179 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 2 0 2023-05-04 13:51:39.895
+!MESSAGE Unknown SWO data source. Fallback to HID.
+
+!ENTRY com.crt.log 1 0 2023-05-04 13:51:40.183
+!MESSAGE Generic cortexM4 ROM base address will be used: e00ff000
