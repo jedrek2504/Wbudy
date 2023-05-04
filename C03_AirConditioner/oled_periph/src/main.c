@@ -135,6 +135,7 @@ int main (void)
 {
 
     int32_t t = 0;
+    int isManual = 0;
     uint32_t lux = 0;
     uint32_t trim = 0;
 
@@ -158,6 +159,9 @@ int main (void)
     /*
      * Assume base board in zero-g position when reading first value.
      */
+	LPC_SC->PCONP |= (1<<15);
+	LPC_GPIO2->FIODIR &= ~(1<<10);
+	LPC_GPIO2->FIOPIN |=(1<<10);
 
 
     light_enable();
@@ -195,8 +199,13 @@ int main (void)
         uint16_t ledOn = 0;
         uint16_t ledOff = 0;
 
+        if(isManual == 1){
+        	 LPC_PWM1->MR1 = 0;
+        	 LPC_PWM1->LER = 0x2;
+        }
+
           // power level 3 -> niebieskie rgb
-          if(t >= 290)
+          if(t >= 285 && isManual == 0)
           {
         	  rgb_setLeds(0x06);
         	  LPC_PWM1->MR1 = 1000;
@@ -204,7 +213,7 @@ int main (void)
           }
 
           // power level 2 -> zielone rgb
-          if (t >= 280 && t < 290)
+          if (t >= 275 && t < 285 && isManual == 0)
           {
         	  rgb_setLeds(0x04);
         	  LPC_PWM1->MR1 = 750;
@@ -212,12 +221,23 @@ int main (void)
           }
 
           // power level 1 -> biale rgb
-          if(t<280)
+          if(t<275 && isManual == 0)
           {
         	   rgb_setLeds(0x05);
         	   LPC_PWM1->MR1 = 400;
         	   LPC_PWM1->LER = 0x2;
           }
+
+          if((LPC_GPIO2->FIOPIN & (1<<10)) == 0 && isManual == 0)
+          {
+        	  isManual = 1;
+          }
+
+          if((LPC_GPIO2->FIOPIN & (1<<10)) == 0 && isManual == 1)
+          {
+        	  isManual = 0;
+          }
+
 
 
 

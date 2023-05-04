@@ -1007,3 +1007,42 @@ Remote communication error.  Target disconnected.: Success.
 
 !ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 14:37:10.389
 !MESSAGE Unable to parse ProbeList output to get probe ref count: []
+
+!ENTRY com.crt.log 1 0 2023-05-04 15:00:40.840
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 15:00:41.345
+!MESSAGE RedlinkServer telnet session connected on port 3025->1124 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 15:00:45.657
+!MESSAGE Telnet session connected on port 3330->1128 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 2 0 2023-05-04 15:00:47.912
+!MESSAGE Unknown SWO data source. Fallback to HID.
+
+!ENTRY com.crt.log 1 0 2023-05-04 15:00:48.133
+!MESSAGE Generic cortexM4 ROM base address will be used: e00ff000
+
+!ENTRY com.crt.log 1 0 2023-05-04 15:02:06.051
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 15:02:06.571
+!MESSAGE RedlinkServer telnet session connected on port 3025->1139 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-05-04 15:02:06.574
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+
+!ENTRY com.crt.log 1 0 2023-05-04 15:02:11.544
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-05-04 15:02:12.062
+!MESSAGE RedlinkServer telnet session connected on port 3025->1140 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-05-04 15:02:16.424
+!MESSAGE Telnet session connected on port 3330->1144 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.trace.core 2 0 2023-05-04 15:02:18.540
+!MESSAGE Unknown SWO data source. Fallback to HID.
+
+!ENTRY com.crt.log 1 0 2023-05-04 15:02:18.748
+!MESSAGE Generic cortexM4 ROM base address will be used: e00ff000
