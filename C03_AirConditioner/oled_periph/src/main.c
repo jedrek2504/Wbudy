@@ -195,19 +195,27 @@ int main (void)
         uint16_t ledOn = 0;
         uint16_t ledOff = 0;
 
-          if (t >= 280)
+          // power level 3 -> niebieskie rgb
+          if(t >= 290)
           {
         	  rgb_setLeds(0x06);
+        	  LPC_PWM1->MR1 = 1000;
+        	  LPC_PWM1->LER = 0x2;
+          }
+
+          // power level 2 -> zielone rgb
+          if (t >= 280 && t < 290)
+          {
+        	  rgb_setLeds(0x04);
         	  LPC_PWM1->MR1 = 750;
         	  LPC_PWM1->LER = 0x2;
           }
 
-
-
+          // power level 1 -> biale rgb
           if(t<280)
           {
-        	   rgb_setLeds(0x04);
-        	   LPC_PWM1->MR1 = 300;
+        	   rgb_setLeds(0x05);
+        	   LPC_PWM1->MR1 = 400;
         	   LPC_PWM1->LER = 0x2;
           }
 
