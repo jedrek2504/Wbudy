@@ -233,6 +233,17 @@ writeDataLen(unsigned char data, unsigned int len)
  *    Run display init sequence
  *
  *****************************************************************************/
+
+void oled_inverse(int inverse){
+	if(inverse == 1){
+		writeCommand(0xa6);
+	}
+	else if(inverse == 0){
+		writeCommand(0xa7);
+	}
+}
+
+
 static void
 runInitSequence(void)
 {
@@ -250,7 +261,7 @@ runInitSequence(void)
     writeCommand(0x80);//(display on)
     writeCommand(0xa1);//(set segment re-map)
     writeCommand(0xa6);//(set normal/inverse display)
-    //  writeCommand(0xa7);//(set inverse display)
+    // writeCommand(0xa7);//(set inverse display)
     writeCommand(0xa8);//(set multiplex ratio)
     writeCommand(0x3F);
     writeCommand(0xd3);//(set display offset)
@@ -371,7 +382,7 @@ void oled_init (void)
     OLED_CS_OFF();
 #endif
 
-    runInitSequence();
+    runInitSequence();//(set inverse display));
 
     memset(shadowFB, 0, SHADOW_FB_SIZE);
 

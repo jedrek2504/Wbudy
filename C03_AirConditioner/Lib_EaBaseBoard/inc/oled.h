@@ -29,7 +29,7 @@ void oled_clearScreen(oled_color_t color);
 void oled_putString(uint8_t x, uint8_t y, uint8_t *pStr, oled_color_t fb,
         oled_color_t bg);
 uint8_t oled_putChar(uint8_t x, uint8_t y, uint8_t ch, oled_color_t fb, oled_color_t bg);
-
+void oled_inverse(int inverse);
 
 #endif /* end __OLED_H */
 /****************************************************************************
