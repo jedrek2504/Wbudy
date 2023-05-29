@@ -7,7 +7,6 @@
 #include "light.h"
 #include "oled.h"
 #include "temp.h"
-#include "acc.h"
 #include "rgb.h"
 
 static uint32_t msTicks = 0;
@@ -122,7 +121,6 @@ int main(void)
     rgb_init();
     oled_init();
     light_init();
-    acc_init();
     temp_init(&getTicks);
     PWM_Init();
 
