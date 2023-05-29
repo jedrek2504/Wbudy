@@ -119,6 +119,19 @@ static void init_adc(void)
 
 }
 
+/*!
+ *  @brief    Krótko co procedura robi.
+ *  @param nazwa  parametru 1
+ *             opis parametru 1
+ *  @param nazwa  parametru 2
+ *             opis parametru 2
+ *
+ *  @param nazwa  parametru n
+ *             opis parametru n
+ *  @returns  np. tak: true on success, false otherwise
+ *  @side effects:
+ *            efekty uboczne
+ */
 void PWM_Init(){
 	LPC_SC->PCONP |= (1<<6);
 	LPC_PWM1->PR = 0x18;
@@ -172,8 +185,6 @@ int main (void)
     oled_putString(1,1,  (uint8_t*)"Temp : ", OLED_COLOR_BLACK, OLED_COLOR_WHITE);
     oled_putString(1, 20, (uint8_t*)"Swiat : ", OLED_COLOR_BLACK, OLED_COLOR_WHITE );
 
-
-
     while(1) {
 
 
@@ -203,12 +214,6 @@ int main (void)
         uint16_t ledOn = 0;
         uint16_t ledOff = 0;
 
-
-        if(isManual == 1){
-        	 LPC_PWM1->MR1 = 0;
-        	 LPC_PWM1->LER = 0x2;
-        }
-
           // power level 3 -> niebieskie rgb
           if(t >= 265)
           {
@@ -233,16 +238,6 @@ int main (void)
         	   LPC_PWM1->LER = 0x2;
 
           }
-
-//          if((LPC_GPIO2->FIOPIN & (1<<10)) == 0 && isManual == 0)
-//          {
-//        	  isManual = 1;
-//          }
-//
-//          if((LPC_GPIO2->FIOPIN & (1<<10)) == 0 && isManual == 1)
-//          {
-//        	  isManual = 0;
-//          }
 
           if(lux < 10) {
         	  oled_inverse(0);
