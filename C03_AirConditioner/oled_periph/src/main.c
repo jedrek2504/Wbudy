@@ -109,12 +109,41 @@ static void delay(uint32_t milliseconds)
     while ((msTicks - startTicks) < milliseconds) {}
 }
 
+static void changeRgbColorBasedOnTemperature(int32_t t)
+{
+    if (t >= 265) {
+        rgb_setLeds(0x06);
+        LPC_PWM1->MR1 = 1000;
+        LPC_PWM1->LER = 0x2;
+    }
+
+    if ((t >= 245) && (t < 265)) {
+        rgb_setLeds(0x04);
+        LPC_PWM1->MR1 = 750;
+        LPC_PWM1->LER = 0x2;
+    }
+
+    if (t < 245) {
+        rgb_setLeds(0x05);
+        LPC_PWM1->MR1 = 400;
+        LPC_PWM1->LER = 0x2;
+    }
+}
+
+static void inverseOledColorBasedOnLux(uint32_t l)
+{
+    if (l < 10U)
+    {
+        oled_inverse(0);
+    }
+    else
+    {
+        oled_inverse(1);
+    }
+}
+
 int main(void)
 {
-    int32_t t = 0;
-    uint32_t lux = 0;
-    uint32_t trim = 0;
-
     init_i2c();
     init_ssp();
     init_adc();
@@ -139,12 +168,14 @@ int main(void)
     oled_putString(1, 1, (uint8_t*)"Temp : ", OLED_COLOR_BLACK, OLED_COLOR_WHITE);
     oled_putString(1, 20, (uint8_t*)"Swiat : ", OLED_COLOR_BLACK, OLED_COLOR_WHITE);
 
+    int32_t temp = 0;
+    uint32_t lux = 0;
+    char str[10];
+    char str2[10];
+
     while (1)
     {
-        char str[10];
-        char str2[10];
-
-        t = temp_read();
+        temp = temp_read();
         int ret = sprintf(str, "%.1f", t / 10.0);
 
         lux = light_read();
@@ -153,34 +184,13 @@ int main(void)
         uint16_t ledOn = 0;
         uint16_t ledOff = 0;
 
-        if (t >= 265) {
-            rgb_setLeds(0x06);
-            LPC_PWM1->MR1 = 1000;
-            LPC_PWM1->LER = 0x2;
-        }
+        changeRgbColorBasedOnTemperature(temp);
 
-        if ((t >= 245) && (t < 265)) {
-            rgb_setLeds(0x04);
-            LPC_PWM1->MR1 = 750;
-            LPC_PWM1->LER = 0x2;
-        }
-
-        if (t < 245) {
-            rgb_setLeds(0x05);
-            LPC_PWM1->MR1 = 400;
-            LPC_PWM1->LER = 0x2;
-        }
-
-        if (lux < 10U) {
-            oled_inverse(0);
-        } else {
-            oled_inverse(1);
-        }
+        inverseOledColorBasedOnLux(uint32_t l);
 
         oled_fillRect((1 + (9 * 6)), 1, 80, 8, OLED_COLOR_WHITE);
         oled_putString((1 + (9 * 6)), 1, str, OLED_COLOR_BLACK, OLED_COLOR_WHITE);
         oled_putString((1 + (9 * 6)), 20, str2, OLED_COLOR_BLACK, OLED_COLOR_WHITE);
-
 
         delay(200);
     }
